@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+}
+
+.main{
+    width: 99vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+
+    margin-top: 100px;
+}
+
+.img{
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+}
+
+.card{
+    width: 350px;
+    height: 650px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    border: 5px solid black
+}
+
+.data_of_card{
+    margin-right: 85px;
+
+    font-family: 'Poor Story', cursive;
+    font-size: 20px;
+}
+
+.nav-bar{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+
+    margin-top: 25px;
+
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.nav{
+    width: 200px;
+    height: 65px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid rgb(212, 138, 2);
+    border-radius: 45%;
+
+    cursor: pointer;
+}
+
+img{
+    width: 300px;
+    height: 400px;
+}
